@@ -1,7 +1,7 @@
 import './App.css';
 import Technologies from "./components/Technologies";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import NavbarNav from "./components/NavbarNav";
+import Navbar from "./components/Navbar";
 
 
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <h1> BJORN YOUREY </h1>
-      <NavbarNav />
+      <Navbar />
       <Technologies />
     </div>
   );
