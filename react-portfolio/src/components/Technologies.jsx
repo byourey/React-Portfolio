@@ -1,31 +1,39 @@
 import React from "react";
 import {
-  Card, CardImg, CardDeck, CardBody
-} from 'reactstrap';
+  Card, CardDeck, Container, Col
+} from 'react-bootstrap';
+// import Images from "../components/Images";
 
 function Technologies() {
   return (
-    <CardDeck>
+  <div className="background">
+
+   <Container className="tech">
+     <CardDeck>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
-        <CardBody>
-          
-        </CardBody>
+      <Col md={4}>
+
+        
+          <Card.Img variant="top" src="C:\Users\byour\OneDrive\Desktop" alt=""/>
+      </Col>          
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
-        <CardBody>
-          
-        </CardBody>
+      <Col md={4}>
+        <Card.Img variant="top" src="holder.js/100px160" />
+      </Col>
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
-        <CardBody>
-          
-        </CardBody>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        
       </Card>
-    </CardDeck>
-  );
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        
+      </Card>
+     </CardDeck>
+   </Container>
+  </div>
+  )
 };
 
 export default Technologies;

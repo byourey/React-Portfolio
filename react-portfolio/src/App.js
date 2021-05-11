@@ -11,7 +11,11 @@ function App() {
     <div className="App">
       <h1> BJORN YOUREY </h1>
       <Navbar />
-      <Technologies />
+      <div id="techno">
+       <Technologies />
+      </div>
+       <div id="portfolio">
+      </div>
     </div>
   );
 }
