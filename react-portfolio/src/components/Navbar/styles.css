@@ -1,0 +1,12 @@
+.navlinks {
+    padding: 30px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.container-fluid {
+    background-color: lightcoral;
+    /* width: 100% */
+}
+

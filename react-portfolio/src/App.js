@@ -1,22 +1,24 @@
 import './App.css';
-import Technologies from "./components/Technologies";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/navbar";
+import Footer from "./components/Footer/Footer"
+import About from "./components/About/about"
+import Portfolio from "./components/Portfolio/portfolio"
+import Contact from "./components/Contact/contact"
 
 
 
 
 function App() {
   return (
-    <div className="App">
-      <h1> BJORN YOUREY </h1>
+    <Router>
       <Navbar />
-      <div id="techno">
-       <Technologies />
-      </div>
-       <div id="portfolio">
-      </div>
-    </div>
+      <About />
+    </Router>
+      
+    
+    
   );
 }
 
