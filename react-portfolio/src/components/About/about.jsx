@@ -9,12 +9,12 @@ function About() {
      <h2>About Me</h2>
         <Container>
         <Row>
-            <div className="about col-md-10">
-            <img className="pic" src="./Images/my-pic.jpg" />            
-            <h3>Hi Everyone! I'm Bjorn Yourey.</h3>
+          <div className="about col-md-10">
+            <img className="pic" src="./Images/my-pic" />            
+            <h3>BJORN YOUREY - Full Stack Web Developer</h3>
             <p>I'm a recent graduate from University of New Hampshire Bootcamp. I learnt HTML, CSS, Javascript, jQuery, Node.js, MySQL, MongoDB, Express & React.</p>
             <p>I have experience as an SEO Analyst and have built websites for clients and ranked these sites on page 1 of google.</p>
-        </div>
+          </div>
         </Row>
         </Container>
     </article>

@@ -1,12 +1,22 @@
 .navlinks {
-    padding: 30px;
-    color: black;
+    padding: 50px;
+    color: white;
     font-weight: bold;
 
 }
 
 .container-fluid {
-    background-color: lightcoral;
+    background-color: #636e72;
     /* width: 100% */
 }
+
+h1 {
+    color: white;
+    font-family: "Mclaren";
+    font-weight: 100;
+}
+
+/* .navbar {
+    width: 100%;
+} */
 

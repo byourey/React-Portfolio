@@ -15,8 +15,10 @@ function App() {
     <Router>
       <Navbar />
       <About />
-    </Router>
-      
+      <Portfolio />
+      <Contact />
+      <Footer />
+    </Router>     
     
     
   );
