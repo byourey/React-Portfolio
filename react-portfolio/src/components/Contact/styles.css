@@ -1,6 +1,6 @@
-/* .containerr {
-    background-color: #636e72;
-} */
+.containerr {
+    color: #636e72;
+}
 
 h2 {
     margin-left: 20px;
@@ -10,4 +10,5 @@ h2 {
     margin-left: 200px;
     border: 0;
     padding-top: 20px;
+    color: black
 }

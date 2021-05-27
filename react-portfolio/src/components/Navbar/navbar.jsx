@@ -11,15 +11,15 @@ function Navbar() {
          <div className="container-fluid">
               <h1>BJORN YOUREY</h1>
 
-                <Nav className="justify-content-end" activeKey="/">
+                <Nav className="justify-content-end">
                     <Nav.Item>
-                        <Nav.Link className="navlinks" href="#About">ABOUT</Nav.Link>
+                        <Nav.Link className="navlinks" href="/About">ABOUT</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link className="navlinks" href="#Portfolio" eventKey="link-1">PORTFOLIO</Nav.Link>
+                        <Nav.Link className="navlinks" href="/Portfolio" eventKey="link-1">PORTFOLIO</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link className="navlinks" href="#Contact" eventKey="link-2">CONTACT</Nav.Link>
+                        <Nav.Link className="navlinks" href="/Contact" eventKey="link-2">CONTACT</Nav.Link>
                     </Nav.Item>
                 </Nav>
          </div>

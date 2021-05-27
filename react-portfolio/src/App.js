@@ -11,14 +11,22 @@ import Contact from "./components/Contact/contact"
 
 
 function App() {
+  
+
   return (
+    <div>
     <Router>
       <Navbar />
-      <About />
-      <Portfolio />
-      <Contact />
-      <Footer />
-    </Router>     
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
+      
+    </Router>  
+    <About />
+    <Portfolio />
+    <Contact />
+    <Footer />   
+    </div>
     
     
   );
